@@ -1,0 +1,9 @@
+1. Compute DFT and IDFT of a signal.
+2. Design a low pass and a high pass filter.
+3. Design a rectangular and a hamming window.
+4. Compute the z transform of a signal.
+5. Sample a sinusoid signal at a frequency of 500 Hz/ given frequency .
+6. Compute FFT of a signal.
+7. Design a band-pass and band- stop filter.
+
+01787601667
