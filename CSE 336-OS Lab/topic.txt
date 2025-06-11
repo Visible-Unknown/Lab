@@ -1,0 +1,12 @@
+1.First Come First Serve(FCFS)
+2.Shortest Jof First(SJF)
+3.Producer consumer using bounded buffer scheme
+4.Binary semaphore 
+5.Producer consumer using semaphore
+6.Semaphore with no busy waiting 
+7.Dining Philosophers 
+8.Bankers Algorithms
+9.Socket programming
+
+
+78851
