@@ -1,77 +1,66 @@
-# 📡 CSE366 - Communication Engineering Lab Project
+# 📡 CSE 366 - Data Communication Lab
 
-This repository contains simulation programs developed for the **Communication Engineering Lab (CSE 366)** at **Shahjalal University of Science and Technology (SUST)**, under the Department of Computer Science and Engineering.
+This repository contains Jupyter Notebook implementations for the **CSE 366: Data Communication Lab** at **Shahjalal University of Science and Technology (SUST)**, Department of Computer Science and Engineering.
 
-## 📘 Course Overview
+## 🧪 Lab Tasks Overview
 
-The lab focuses on understanding and implementing key concepts of analog and digital communication through simulation and coding exercises. This repository includes six key simulations corresponding to the course syllabus.
+The following tasks cover essential concepts in data communication, ranging from signal encoding to error detection. Each task is implemented in a dedicated `.ipynb` notebook.
 
----
-
-## 🔧 Features & Implemented Programs
-
-### ✅ 1. Pulse Code Modulation (PCM)
-- Simulates analog-to-digital signal conversion.
-- Implements sampling, quantization, and encoding.
-
-### ✅ 2. Digital-to-Digital Conversion
-- Line coding and decoding techniques.
-- Block coding and decoding schemes.
-
-### ✅ 3. Digital-to-Analog Conversion
-- Simulations for:
-  - Amplitude Shift Keying (ASK)
-  - Frequency Shift Keying (FSK)
-  - Phase Shift Keying (PSK)
-
-### ✅ 4. Additional Line Coding Techniques
-- NRZ (Non-Return to Zero)
-- NRZ-L (Level)
-- Manchester Encoding
-- Differential Manchester Encoding
-
-### ✅ 5. Block Even Parity Error Detection
-- Implements a `4 x 8` block parity-based error detection system.
-
-### ✅ 6. CRC Error Detection
-- Implements **Cyclic Redundancy Check** for detecting errors in transmitted digital data.
+| Task | Description |
+|------|-------------|
+| **Task_1.ipynb** | Pulse Code Modulation (PCM): Simulates analog-to-digital conversion including sampling, quantization, and encoding. |
+| **Task_2.ipynb** | Digital-to-Digital Conversion: Implements line coding and block coding schemes. |
+| **Task_3.ipynb** | Digital-to-Analog Conversion: Simulates ASK, FSK, and PSK modulation techniques. |
+| **Task_4.ipynb** | Line Coding Techniques: NRZ, NRZ-L, Manchester, and Differential Manchester encoding. |
+| **Task_5.ipynb** | 4×8 Block Even Parity Error Detection. |
+| **Task_6.ipynb** | CRC (Cyclic Redundancy Check) Error Detection Model. |
+| **Task_7.ipynb** | Additional or bonus implementation (optional/custom content depending on your submission). |
 
 ---
 
 ## 🛠 Technologies Used
 
-- Python (for simulations)
-- Matplotlib (for signal visualization)
-- NumPy (for signal processing)
-- GUI/CLI (varies per script)
+- Python 3.x
+- Jupyter Notebooks
+- NumPy
+- Matplotlib
 
 ---
 
 ## 🚀 Getting Started
 
-### 📁 Folder Structure
-```CSE 366-Data Com Lab/
-├── pcm_simulation.py
-├── line_coding.py
-├── analog_modulation.py
-├── parity_check.py
-├── crc_model.py
-└── README.md
-```
+### ✅ Requirements
 
-### ✅ Run Any Script
+To run the notebooks:
+
 ```bash
-python <filename>.py
+pip install numpy matplotlib notebook
+```
+### ▶️ Launch the notebooks
+```bash
+jupyter notebook
+```
+Then open any Task_*.ipynb to view and run simulations.
+### 📁 Repository Structure
+```nginx
+CSE 366-Data Com Lab/
+├── CSE366 - Lab_2024.pdf       # Official lab task list
+├── README.md                   # Project documentation
+├── Task_1.ipynb                # PCM Simulation
+├── Task_2.ipynb                # Line & Block Coding
+├── Task_3.ipynb                # ASK, FSK, PSK
+├── Task_4.ipynb                # NRZ, Manchester etc.
+├── Task_5.ipynb                # Block Even Parity
+├── Task_6.ipynb                # CRC Model
+├── Task_7.ipynb                # Optional / Bonus Task
 ```
 ### 👨‍🏫 Instructor
-MHN,
+MHN
 Department of CSE,
-Shahjalal University of Science and Technology
+Shahjalal University of Science and Technology (SUST)
 
 ### 📄 License
-This project is for educational purposes only.
+This repository is intended for educational use only.
 
 ### 🙌 Contributors
-Feel free to open issues or pull requests to contribute.
-
----
+Contributions, suggestions, and improvements are welcome! Feel free to fork and open a pull request.
