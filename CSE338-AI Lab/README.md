@@ -38,14 +38,14 @@ Build a **Sudoku solver** using a backtracking algorithm to fill a 9x9 grid so t
 ```txt
 Lab/
 └── CSE338-AI Lab/
-├── Lab#01_n_queen.cpp
-├── Lab#02_8_puzzle.cpp
-├── Lab#03_water_jug.cpp
-├── Lab#04_BFS.cpp
-├── Lab#05_DFS.cpp
-├── Lab#06_missionaries.cpp
-├── Lab#07_sudoku.cpp
-└── Lab problems.pdf
+    ├── Lab#01_n_queen.cpp
+    ├── Lab#02_8_puzzle.cpp
+    ├── Lab#03_water_jug.cpp
+    ├── Lab#04_BFS.cpp
+    ├── Lab#05_DFS.cpp
+    ├── Lab#06_missionaries.cpp
+    ├── Lab#07_sudoku.cpp
+    └── Lab problems.pdf
 ```
 ---
 
